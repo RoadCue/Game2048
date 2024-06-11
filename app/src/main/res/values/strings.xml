@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My_2048</string>
+    <string name="startGame">开始游戏</string>
+    <string name="askScore">历史最高分数</string>
+    <string name="rankList">排行榜（暂未完成）</string>
+    <string name="Score">分数：</string>
+    <string name="MaxScore">最高分：</string>
+    <string name="reset">重新开始</string>
+    <string name="GameName">2048Game</string>
+</resources>

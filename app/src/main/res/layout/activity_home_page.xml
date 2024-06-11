@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp"
+            android:text="@string/GameName"
+            android:textSize="50sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/startGame"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/rankList"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/rankList"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+</LinearLayout>
